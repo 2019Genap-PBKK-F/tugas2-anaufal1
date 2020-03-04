@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-const hostname = 'localhost';
+const hostname = '10.199.14.46';
 const port = 8025;
 
 var mahasiswaController = require('./Controller/MahasiswaController')();
