@@ -1,7 +1,7 @@
 {
-  "name": "tugas2-anaufal1",
+  "name": "tugas2",
   "version": "1.0.0",
-  "description": "tugas 2 PBKK F",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/2019Genap-PBKK-F/tugas2-anaufal1.git"
   },
-  "author": "naufal",
+  "author": "anaufal1",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/2019Genap-PBKK-F/tugas2-anaufal1/issues"
   },
-  "homepage": "https://github.com/2019Genap-PBKK-F/tugas2-anaufal1#readme"
+  "homepage": "https://github.com/2019Genap-PBKK-F/tugas2-anaufal1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mssql": "^6.1.0"
+  }
 }
