@@ -1,26 +1,46 @@
 {
-  "name": "tugas2",
+  "name": "tugas-2",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "private": true,
+  "description": "Tugas~",
+  "author": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/2019Genap-PBKK-F/tugas2-anaufal1.git"
-  },
-  "author": "anaufal1",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/2019Genap-PBKK-F/tugas2-anaufal1/issues"
-  },
-  "homepage": "https://github.com/2019Genap-PBKK-F/tugas2-anaufal1#readme",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "core-js": "^3.6.4",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "joi": "^14.3.1",
-    "mssql": "^6.1.0"
+    "mssql": "^6.1.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^1.19.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_id": "tugas-2@1.0.0",
+  "bugs": {
+    "url": "https://github.com/2019Genap-PBKK-F/tugas2-4rMyMen/issues"
+  },
+  "homepage": "https://github.com/2019Genap-PBKK-F/tugas2-4rMyMen#readme",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2019Genap-PBKK-F/tugas2-4rMyMen.git"
   }
 }
